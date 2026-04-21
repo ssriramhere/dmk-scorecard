@@ -6,7 +6,7 @@ Not affiliated with any institution, political party, or organization.
 
 ## Known limitations
 
-This is version 0.2 — a research preview, not a finished assessment. Batch 1 covers 20 of 505 flagship promises from the 2021 manifesto. All grades are marked **provisional** pending systematic primary-source verification against Government Orders, Budget line items, and CAG audits. Several citations currently reference departmental portals and credible independent media where GO-level retrieval from `tn.gov.in` has not yet been completed.
+This is version 0.3 — a research preview, not a finished assessment. Batches 1 and 2 together cover 45 of 505 promises from the 2021 manifesto across all major domains (welfare, health, education, agriculture, water, fisheries, industry, transport, state rights, environment, law & order, minorities, SC/ST). All grades are marked **provisional** pending systematic primary-source verification against Government Orders, Budget line items, and CAG audits. Several citations currently reference departmental portals and credible independent media where GO-level retrieval from `tn.gov.in` has not yet been completed.
 
 The scorecard is deliberately lenient in marginal cases — commitments with genuine delivery effort are credited even when scale or timeline fell short of the original promise. A stricter grading pass would shift several B grades downward.
 

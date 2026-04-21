@@ -1,7 +1,7 @@
 {
   "name": "dmk-scorecard",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "Tamil Nadu Promise Tracker — 5-year delivery assessment of the DMK 2021 manifesto, cross-referenced with the 2026 manifesto. An independent civic research preview.",
   "scripts": {

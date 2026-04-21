@@ -521,6 +521,654 @@ const PROMISES = [
         url: "https://www.tnhealth.tn.gov.in/"
       }
     ]
+  },
+
+  // ==========================================================================
+  // BATCH 2 — added 2026-04-21
+  // Domain expansion: Health, Agriculture, Water, Fisheries, Industry, State
+  // Rights, Transport, Law & Order, Environment, Minorities.
+  // Same provisional rigor as batch 1. Citations point to credible sources
+  // retrievable without TN GO archive browsing; primary-source verification
+  // pass still pending.
+  // ==========================================================================
+
+  {
+    id: "dmk2021-mtm-doorstep-health",
+    num: 340,
+    shortTitle: "Doorstep healthcare via mobile medical units",
+    fullText: "Note: Makkalai Thedi Maruthuvam (MTM) emerged as the flagship health delivery scheme under the 2021 manifesto's commitment to strengthen primary healthcare and NCD management via mobile units and home-based care.",
+    domain: "Health",
+    grade: "B",
+    rationale: "MTM launched August 2021 via G.O. (Ms) No. 340 — real, verifiable primary document. State health department reports 2.5+ crore beneficiaries in four years; peer-reviewed evaluation in BMC Primary Care (Dec 2025) confirms substantial reach on diabetes/hypertension screening. Significant implementation gaps flagged by The Federal (Dec 2025): data duplication, inflated claims, limited actual home visits in parts of TN. Delivered at scale but with documented quality issues.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 manifesto commits to expanding MTM with 2,000 new mobile medical units and integration with NCD registries.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "GO",
+        label: "G.O. (Ms) No. 340, Health & Family Welfare Dept, August 2021",
+        detail: "Primary GO launching Makkalai Thedi Maruthuvam scheme",
+        url: "https://cms.tn.gov.in/sites/default/files/go/hfw_e_340_2021.pdf"
+      },
+      {
+        type: "News",
+        label: "BMC Primary Care evaluation study, Dec 2025",
+        detail: "Peer-reviewed evaluation confirming substantial reach on NCD care cascade",
+        url: "https://link.springer.com/article/10.1186/s12875-025-03064-w"
+      },
+      {
+        type: "News",
+        label: "The Federal investigative report, Dec 2025",
+        detail: "Implementation gaps: data duplication, limited home visits, inflated coverage claims",
+        url: "https://thefederal.com/category/states/south/tamil-nadu/makkalai-thedi-maruthuvam-ground-reality-tamil-nadu-220381"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-cmchis-expansion",
+    num: 348,
+    shortTitle: "CMCHIS expansion — health insurance coverage increase",
+    fullText: "The Chief Minister's Comprehensive Health Insurance Scheme coverage will be expanded to include more diseases and raise per-family coverage.",
+    domain: "Health",
+    grade: "B",
+    rationale: "CMCHIS coverage was expanded during 2021-26 to include more procedures and higher per-family cover. 2026 manifesto self-reports significant expansion in empanelled hospitals and covered treatments. Scale of expansion vs original promise requires budget-document verification for A grade.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 further expands CMCHIS to ₹10 lakh/family (Healthcare §).",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "CMCHIS official scheme portal — Tamil Nadu Health Dept",
+        detail: "Current coverage details and empanelled hospital list",
+        url: "https://www.cmchistn.com/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Healthcare section",
+        detail: "Self-reported CMCHIS expansion as 2021-26 achievement",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-medical-colleges",
+    num: 341,
+    shortTitle: "Establish new government medical colleges",
+    fullText: "New government medical colleges will be established across Tamil Nadu to expand MBBS seats and improve district-level healthcare access.",
+    domain: "Health",
+    grade: "A",
+    rationale: "11 new government medical colleges were approved and inaugurated in 2021-22 under a Centre-state collaborative scheme, adding ~1,650 MBBS seats. TN substantially increased its government medical college footprint during the term. Widely documented.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits to additional medical colleges and super-specialty capacity.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "News",
+        label: "Inauguration coverage of 11 new TN medical colleges, 2022",
+        detail: "Centrally-sponsored scheme execution; 1,650+ MBBS seats added",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1792928"
+      },
+      {
+        type: "Budget",
+        label: "TN Health Policy Notes 2022-23 through 2025-26",
+        detail: "Medical education expansion tracked across years",
+        url: "https://www.tnhealth.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-cauvery-delta-strengthen",
+    num: 77,
+    shortTitle: "Strengthen Cauvery Delta Protected Agricultural Zone Act",
+    fullText: "DMK will strengthen the Cauvery Delta Protected Special Agricultural Zone Act to cover all delta districts and close loopholes that allow ongoing hydrocarbon projects.",
+    domain: "Agriculture",
+    grade: "C",
+    rationale: "The underlying PSAZ Act was passed by AIADMK in February 2020 — predates DMK term. DMK 2021 promise was to strengthen/expand it. During 2021-26, no major amendment extending coverage to Tiruchirappalli, Ariyalur, Karur districts (which farmer groups specifically requested) has been enacted. Some administrative strengthening of the existing Act occurred. Limited delivery on the strengthening commitment.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Not specifically re-committed in 2026 manifesto.",
+    flag: "none",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Protected Agricultural Zone Development Act, 2020",
+        detail: "Original AIADMK-era legislation; DMK's commitment was to strengthen coverage",
+        url: "https://www.downtoearth.org.in/environment/tamil-nadu-moved-to-guard-cauvery-delta-so-why-are-farmers-still-worried--69750"
+      },
+      {
+        type: "News",
+        label: "Mongabay analysis on Act coverage gaps (2020, ongoing concerns)",
+        detail: "Farmers' demand for full-delta coverage unfulfilled",
+        url: "https://india.mongabay.com/2020/03/what-does-the-cauvery-deltas-new-protected-special-agricultural-zone-mean-for-livelihoods/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-kuruvai-package",
+    num: 76,
+    shortTitle: "Kuruvai special package for delta farmers",
+    fullText: "Special Kuruvai package for delta farmers — seeds, fertilizer subsidy, water release, crop insurance coverage.",
+    domain: "Agriculture",
+    grade: "B",
+    rationale: "Kuruvai special packages have been announced annually 2021-2025 with varying allocations for Delta farmers. Water release from Mettur dam for Kuruvai has generally been on time. 2024-25 package expanded to cover higher acreage. Scale of coverage vs promise requires agricultural dept data.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits to continued and expanded Kuruvai support.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "TN Agriculture Dept annual Kuruvai package notifications 2021-2025",
+        detail: "Year-on-year Kuruvai package announcements",
+        url: "https://www.tn.gov.in/department/2"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Agriculture section",
+        detail: "Kuruvai expansion claimed as 2021-26 delivery",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-chennai-metro-phase2",
+    num: 435,
+    shortTitle: "Chennai Metro Phase 2 — complete 118 km network",
+    fullText: "DMK will expedite Chennai Metro Phase 2 covering three corridors totaling 118.9 km to provide comprehensive urban rail connectivity.",
+    domain: "Transport",
+    grade: "C",
+    rationale: "Chennai Metro Phase 2 construction is underway across three corridors. As of 2026, physical progress varies widely by corridor with none of the three fully operational. Original 2025 completion target has slipped to 2028. Work is proceeding but at well below the pace the 2021 promise implied.",
+    repromiseStatus: "repromised_undelivered",
+    repromise2026: "2026 re-commits to Phase 2 completion with revised timeline.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "Chennai Metro Rail Limited — Phase 2 progress page",
+        detail: "Corridor-wise construction status",
+        url: "https://chennaimetrorail.org/"
+      },
+      {
+        type: "News",
+        label: "TN Transport Policy Note annual updates on Metro Phase 2",
+        detail: "Timeline revisions documented in annual policy notes",
+        url: "https://www.tntransport.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-3-language-opposition",
+    num: 20,
+    shortTitle: "Oppose three-language formula in NEP",
+    fullText: "DMK will steadfastly oppose the imposition of the three-language formula and preserve Tamil Nadu's two-language policy.",
+    domain: "Education",
+    grade: "A",
+    rationale: "DMK government has consistently opposed NEP 2020's three-language formula throughout the term. TN Assembly passed resolutions; CM Stalin made public statements; TN refused to implement PM-SHRI linked to NEP adoption; state education department maintained two-language policy. Sustained, consistent advocacy with real policy consequences.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits to continued opposition and deeper advocacy for Tamil-medium education.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Assembly resolutions against NEP three-language formula, 2022-2024",
+        detail: "Multiple resolutions passed; formal state opposition recorded",
+        url: "https://www.tnassembly.org/"
+      },
+      {
+        type: "News",
+        label: "TN refuses PM-SHRI scheme over NEP compliance requirement (2024)",
+        detail: "State declined Centre funding rather than accept three-language conditionality",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-governor-role-bill",
+    num: 11,
+    shortTitle: "Amend laws limiting Governor's discretion",
+    fullText: "DMK will introduce Bills to limit the Governor's ability to delay or withhold assent on state legislation and to curtail discretionary powers.",
+    domain: "State Rights",
+    grade: "C",
+    rationale: "TN passed multiple resolutions condemning Governor delays. State moved Supreme Court against Governor RN Ravi's withholding of assent on 10+ Bills; SC verdict (April 2025) ruled Governor's inaction unconstitutional — a major win for TN and state rights generally. Legislative amendments to Article 200-related state law are outside state's direct power; the court route produced the actual remedy.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 re-commits to Governor-role reforms and strengthened federalism.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Legislative",
+        label: "Supreme Court judgment on TN Bills pending Governor's assent, April 2025",
+        detail: "Landmark ruling on Article 200; TN among petitioners",
+        url: "https://main.sci.gov.in/"
+      },
+      {
+        type: "News",
+        label: "The Hindu coverage of TN-Governor standoff 2021-2025",
+        detail: "Sustained legal and legislative contestation",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-sl-fishermen-release",
+    num: 88,
+    shortTitle: "Secure release of fishermen detained by Sri Lankan Navy",
+    fullText: "DMK will take urgent steps to secure the release of Tamil Nadu fishermen arrested by Sri Lankan authorities and to prevent future arrests through diplomatic and legal means.",
+    domain: "Fisheries",
+    grade: "C",
+    rationale: "Arrests of TN fishermen by Sri Lankan Navy continued throughout the term — hundreds detained annually, with periodic releases. CM Stalin wrote multiple letters to PM and External Affairs Ministry. Some releases secured through advocacy but the underlying Palk Strait dispute remains unresolved. Sustained advocacy without structural change.",
+    repromiseStatus: "repromised_undelivered",
+    repromise2026: "2026 re-commits to fishermen protection and international mediation efforts.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Ongoing coverage of TN fishermen arrests by Sri Lankan Navy, 2021-2026",
+        detail: "Hundreds of arrests documented; periodic diplomatic releases",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      },
+      {
+        type: "Legislative",
+        label: "TN CM letters to PM on fishermen issue (multiple, 2021-2025)",
+        detail: "Advocacy trail documented in state communications",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-fishermen-diesel",
+    num: 92,
+    shortTitle: "Increase diesel subsidy for fishing boats",
+    fullText: "DMK will increase the diesel subsidy for mechanised fishing boats to reduce operational costs for coastal fishermen.",
+    domain: "Fisheries",
+    grade: "B",
+    rationale: "Diesel subsidy for mechanised boats was enhanced during the term. Subsidy quantum and eligibility expanded in stages. Scale of enhancement vs 2021 expectation requires TN Fisheries Department data for precise A-grade confirmation.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits to further enhancements in fishermen welfare including diesel subsidy.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Fisheries Department subsidy schemes page",
+        detail: "Current diesel subsidy rates and eligibility",
+        url: "https://www.fisheries.tn.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "TN Budget allocations for fisheries 2021-2026",
+        detail: "Year-on-year fisheries sector allocation",
+        url: "https://www.tn.gov.in/budget"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-msme-fund",
+    num: 212,
+    shortTitle: "MSME support — dedicated fund and credit access",
+    fullText: "DMK will establish a dedicated MSME support fund to provide credit access, working capital support, and revival assistance for small enterprises.",
+    domain: "Industry",
+    grade: "B",
+    rationale: "TN MSME support programs were expanded during 2021-26 including credit-linked schemes and cluster development. Specific 'dedicated MSME fund' as a standalone instrument requires primary-source verification. General MSME ecosystem support is documented in multiple Policy Notes.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits significant expansion of MSME credit guarantee corpus.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN MSME Department schemes page",
+        detail: "Current MSME support programs",
+        url: "https://www.msmeonline.tn.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "TN Industries Policy Notes 2022-23 through 2025-26",
+        detail: "MSME allocation and scheme evolution tracked",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-industrial-investment",
+    num: 192,
+    shortTitle: "Attract large industrial investments to TN",
+    fullText: "DMK will actively attract large-scale industrial investments through Global Investors Meets, SIPCOT expansion, and targeted industrial policies.",
+    domain: "Industry",
+    grade: "A",
+    rationale: "Global Investors Meet 2024 attracted ₹6.64 lakh crore in MoUs per government figures. 2026 manifesto claims ₹10 lakh crore total investment attracted during term. While MoUs differ from realized investment, TN demonstrably remained a top-3 state for industrial FDI/investment through the term. Strong delivery on the commitment to attract investment.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits ₹18 lakh crore FDI target for next term.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "News",
+        label: "Global Investors Meet 2024 outcomes coverage",
+        detail: "₹6.64 lakh crore in MoUs secured",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Industrial Growth section",
+        detail: "Term-cumulative investment claims documented",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-mekedatu-opposition",
+    num: 85,
+    shortTitle: "Oppose Karnataka's Mekedatu project on Cauvery",
+    fullText: "DMK will steadfastly oppose Karnataka's Mekedatu dam project and protect TN's Cauvery water rights through legal and political means.",
+    domain: "Water",
+    grade: "B",
+    rationale: "TN consistently opposed Mekedatu project throughout term. Multiple Assembly resolutions passed; Supreme Court petitions sustained; CVWMA interventions maintained. Mekedatu project remains on hold largely due to inter-state objections including TN's. Advocacy consistent though final legal resolution pending.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 re-commits to continued opposition on Mekedatu.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Assembly resolutions on Mekedatu opposition, 2021-2024",
+        detail: "Multiple unanimous resolutions against Karnataka's project",
+        url: "https://www.tnassembly.org/"
+      },
+      {
+        type: "Legislative",
+        label: "TN Supreme Court filings on Cauvery water sharing, ongoing",
+        detail: "Sustained legal advocacy on Cauvery water rights",
+        url: "https://main.sci.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-minorities-welfare",
+    num: 294,
+    shortTitle: "Strengthen minorities welfare — board & specific schemes",
+    fullText: "DMK will strengthen the Tamil Nadu Minorities Welfare Board and introduce targeted schemes for minority communities including Muslims and Christians.",
+    domain: "Minorities",
+    grade: "B",
+    rationale: "TN Minorities Welfare Department continued active schemes 2021-26. Specific Haj subsidy facilitation, Christian pilgrimage subsidies, and community-specific welfare measures were maintained or expanded. 2026 manifesto itemises several minority welfare commitments as continuations.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits additional minority welfare schemes.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Minorities Welfare Department",
+        detail: "Current schemes and community-specific programs",
+        url: "https://www.tnminoritieswelfare.tn.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Minorities section",
+        detail: "Self-reported deliveries and continued commitments",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-sc-st-welfare",
+    num: 253,
+    shortTitle: "Strengthen SC/ST welfare — Adi Dravidar & Tribal Welfare",
+    fullText: "DMK will strengthen SC/ST welfare through enhanced Adi Dravidar Welfare Department programs, tribal development, and targeted educational support.",
+    domain: "SC ST",
+    grade: "B",
+    rationale: "Multiple SC/ST-targeted schemes continued and expanded during 2021-26. 2026 manifesto itemises 2021-26 deliveries including Pudhumai Penn (higher-ed scholarship with SC/ST benefit), hostel expansion, and welfare enhancements. Specific scale claims require Adi Dravidar Welfare Policy Note verification.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits additional SC/ST/Tribal welfare schemes.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Adi Dravidar and Tribal Welfare Department",
+        detail: "Current welfare schemes listing",
+        url: "https://www.adwtn.tn.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — SC/ST section",
+        detail: "Term deliveries and forward commitments",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-pudhumai-penn",
+    num: 154,
+    shortTitle: "Higher education scholarship for government school girls",
+    fullText: "DMK will provide monthly scholarships to girls from government schools pursuing higher education, covering tuition and living expenses.",
+    domain: "Education",
+    grade: "A",
+    rationale: "Pudhumai Penn Thittam launched September 2022 providing ₹1,000 monthly (₹12,000 annually, extended through UG course) to girls who completed Classes 6-12 in government schools. Over 3.3 lakh beneficiaries cited. Widely recognized flagship delivery. Strong primary-source trail via TN School Education Department.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits Moovalur Ramamirtham scholarship for boys as parallel scheme; Pudhumai Penn continues.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "Pudhumai Penn Thittam official portal",
+        detail: "₹1,000/month scholarship scheme; beneficiary data",
+        url: "https://penkalvi.tn.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Education section",
+        detail: "Pudhumai Penn cited with beneficiary count",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tn-urban-road-infra",
+    num: 432,
+    shortTitle: "Expand urban road infrastructure — flyovers, road widening",
+    fullText: "DMK will invest in urban road infrastructure including flyovers, grade separators, and road widening across major TN cities.",
+    domain: "Transport",
+    grade: "B",
+    rationale: "Multiple flyovers and grade separators inaugurated 2021-26 across Chennai, Coimbatore, Madurai, Trichy. TN Highways Department Policy Notes document year-on-year progress. Specific kilometer-level targets from 2021 require Highways Policy Note cross-referencing.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded highways network.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Highways Department Policy Notes 2022-23 through 2025-26",
+        detail: "Annual highway project inauguration and progress data",
+        url: "https://www.tnhighways.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-police-reform",
+    num: 378,
+    shortTitle: "Police reform — modernisation, training, accountability",
+    fullText: "DMK will modernise Tamil Nadu police, invest in training, reform accountability mechanisms, and address pending Supreme Court directions on police reform.",
+    domain: "Law and Order",
+    grade: "C",
+    rationale: "Police modernisation grants utilised and training infrastructure expanded. However, accountability-specific reforms (Police Complaints Authority strength, custodial death investigations) show mixed record. Sattankulam custodial death (2020) was a pre-term case but trial progressed during term. Broader systemic reform commitments partially delivered.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific police-accountability reform agenda not prominently re-committed in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Reporting on TN police reforms 2021-2026",
+        detail: "Mixed record on modernisation vs accountability",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      },
+      {
+        type: "Portal",
+        label: "TN Home Department and TN Police",
+        detail: "Department-level reform initiatives",
+        url: "https://www.tnpolice.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-prohibit-pending",
+    num: 375,
+    shortTitle: "Tamil Nadu full prohibition on alcohol",
+    fullText: "DMK will work towards total prohibition of alcohol in Tamil Nadu in a phased manner.",
+    domain: "Law and Order",
+    grade: "F",
+    rationale: "No move towards total prohibition during 2021-26. TASMAC (state liquor monopoly) revenue continued to grow as significant state revenue source. Alcohol hooch tragedies (Kallakurichi 2024, others) raised public pressure but state policy did not shift toward prohibition. Commitment effectively abandoned on fiscal grounds.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Total prohibition not prominently re-committed; 2026 focuses on regulation and hooch prevention.",
+    flag: "quiet_drop",
+    citations: [
+      {
+        type: "News",
+        label: "TASMAC revenue data 2021-2026",
+        detail: "State alcohol revenue continued growth through term",
+        url: "https://www.tasmac.tn.gov.in/"
+      },
+      {
+        type: "News",
+        label: "Kallakurichi hooch tragedy coverage, 2024",
+        detail: "Public pressure for reform but no prohibition move",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-climate-action",
+    num: 361,
+    shortTitle: "TN Climate Change Mission and carbon-neutral initiatives",
+    fullText: "DMK will establish the Tamil Nadu Climate Change Mission to coordinate state-level climate adaptation, mitigation, and carbon-neutral village initiatives.",
+    domain: "Environment",
+    grade: "A",
+    rationale: "TN Green Tamil Nadu Mission and Climate Change Mission launched 2022-23. Climate action plan released. Green Climate Company set up. TN positioned as one of the leading Indian states on climate policy. 2026 manifesto cites multiple environment initiatives including extensive afforestation. Strong institutional delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits 30% vehicle electrification by 2030 and expanded green mission.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "Tamil Nadu Green Mission / Climate Change Mission",
+        detail: "Institutional setup and program documentation",
+        url: "https://www.tnenvis.nic.in/"
+      },
+      {
+        type: "News",
+        label: "TN climate policy leadership coverage 2022-2026",
+        detail: "Multi-source confirmation of strong state-level climate policy",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-transgender-welfare",
+    num: 299,
+    shortTitle: "Transgender welfare — identity, housing, employment",
+    fullText: "DMK will strengthen transgender welfare including identity documentation, housing, employment opportunities, and social security.",
+    domain: "Social Welfare",
+    grade: "B",
+    rationale: "TN Transgender Welfare Board continued active schemes 2021-26. Monthly pension, housing schemes, and identity documentation support maintained. Specific reach and quantum expansion vs 2021 baseline requires welfare dept data.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded transgender welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Social Welfare Department — Transgender Welfare",
+        detail: "Scheme listings and pension programs",
+        url: "https://www.tnsocialwelfare.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-temple-renovation",
+    num: 423,
+    shortTitle: "Temple renovation and HR&CE support",
+    fullText: "DMK will support temple renovation, heritage conservation, and HR&CE-administered temple infrastructure.",
+    domain: "HR CE",
+    grade: "B",
+    rationale: "HR&CE undertook significant temple renovation projects 2021-26 including Mylai Kapaleeswarar Temple consecration, Srirangam Ranganathaswamy Temple kumbabhishekam, and multiple heritage site works. Scale per 2026 manifesto claims substantial heritage restoration. Specific temple-by-temple tracking possible via HR&CE Policy Notes.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued HR&CE temple support.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN HR&CE Department",
+        detail: "Temple renovation projects and kumbabhishekam records",
+        url: "https://www.tnhrce.gov.in/"
+      },
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — HR&CE / Temples section",
+        detail: "Term deliveries itemised",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-startup-ecosystem",
+    num: 219,
+    shortTitle: "Startup ecosystem — StartupTN, incubators, funding",
+    fullText: "DMK will strengthen TN's startup ecosystem through StartupTN expansion, incubator support, and state-led funding mechanisms.",
+    domain: "Industry",
+    grade: "A",
+    rationale: "StartupTN strengthened significantly 2021-26 with fund-of-funds, multiple incubator partnerships, and sector-specific schemes. TN ranked among top Indian states for startup activity per multiple startup ecosystem reports. 2026 manifesto itemises startup achievements as delivered.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded startup fund and deeptech focus.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "StartupTN official portal",
+        detail: "State startup agency — schemes and ecosystem data",
+        url: "https://startuptn.in/"
+      },
+      {
+        type: "News",
+        label: "TN startup ecosystem coverage 2021-2026",
+        detail: "Multi-source confirmation of state-led ecosystem growth",
+        url: "https://www.thehindu.com/business/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-electricity-free-farmers",
+    num: 233,
+    shortTitle: "Continue free electricity to farmers",
+    fullText: "DMK will continue the free electricity scheme for farmers and ensure uninterrupted agricultural power supply.",
+    domain: "Energy",
+    grade: "A",
+    rationale: "Free agricultural electricity scheme continued through the term. TN's agricultural power subsidy remained among the highest in India. TANGEDCO subsidy receivables from state government continued growing but scheme never interrupted. Clear delivery.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 re-commits free electricity to farmers.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "TANGEDCO agricultural tariff notifications",
+        detail: "Free agricultural electricity scheme continuation",
+        url: "https://www.tangedco.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-katchatheevu-retrieval",
+    num: 87,
+    shortTitle: "Advocate retrieval of Katchatheevu island",
+    fullText: "DMK will consistently urge the Centre to retrieve Katchatheevu island ceded to Sri Lanka in 1974 to restore TN fishermen's traditional fishing rights.",
+    domain: "State Rights",
+    grade: "C",
+    rationale: "TN CM wrote multiple letters urging Centre on Katchatheevu. TN Assembly passed resolutions. Issue gained political prominence during 2024 Lok Sabha campaign when BJP/Centre raised it. No retrieval occurred — matter is diplomatically extremely complex. Advocacy was consistent but outcome depends entirely on Centre and Sri Lanka.",
+    repromiseStatus: "repromised_undelivered",
+    repromise2026: "2026 re-commits Katchatheevu retrieval advocacy.",
+    flag: "none",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Assembly resolutions on Katchatheevu, 2021-2024",
+        detail: "Multiple formal resolutions",
+        url: "https://www.tnassembly.org/"
+      },
+      {
+        type: "News",
+        label: "Katchatheevu political coverage 2021-2024",
+        detail: "CM Stalin letters to PM documented",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
   }
 ];
 
@@ -1533,9 +2181,9 @@ export default function App() {
         fontWeight: 500,
         borderBottom: `1px solid ${theme.redDeep}`,
       }}>
-        <strong style={{ letterSpacing: 2, textTransform: "uppercase" }}>Provisional · v0.2 · Batch 1</strong>
+        <strong style={{ letterSpacing: 2, textTransform: "uppercase" }}>Provisional · v0.3 · Batches 1-2</strong>
         <span style={{ opacity: 0.85, marginLeft: 10 }}>
-          20 of 505 flagship promises scored. Grades await systematic primary-source verification. Research preview, not a finished assessment.
+          45 of 505 promises scored across all major domains. Grades await systematic primary-source verification. Research preview, not a finished assessment.
         </span>
       </div>
 
@@ -1727,7 +2375,7 @@ export default function App() {
           letterSpacing: 1,
         }}>
           <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-            <div>Tamil Nadu Promise Tracker · A personal civic project by Sriram · v0.2 Batch 1</div>
+            <div>Tamil Nadu Promise Tracker · A personal civic project by Sriram · v0.3 Batches 1-2</div>
             <div>Sources: DMK 2021 & 2026 manifestos, TN Govt portals, Supreme Court & Assembly records</div>
           </div>
           <div style={{ fontSize: 10, color: theme.inkMuted, opacity: 0.7, lineHeight: 1.5 }}>
