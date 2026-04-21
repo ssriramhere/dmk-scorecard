@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#141012"/>
+  <circle cx="32" cy="48" r="18" fill="url(#sun)"/>
+  <rect x="0" y="48" width="64" height="16" fill="#141012"/>
+  <line x1="32" y1="48" x2="32" y2="12" stroke="#d4a017" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+  <line x1="32" y1="48" x2="8" y2="24" stroke="#d4a017" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="32" y1="48" x2="56" y2="24" stroke="#d4a017" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="32" y1="48" x2="4" y2="40" stroke="#d4a017" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <line x1="32" y1="48" x2="60" y2="40" stroke="#d4a017" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <defs>
+    <radialGradient id="sun" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#d4a017"/>
+      <stop offset="60%" stop-color="#b8272b"/>
+      <stop offset="100%" stop-color="#7a1518"/>
+    </radialGradient>
+  </defs>
+</svg>
