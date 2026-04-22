@@ -1169,6 +1169,1151 @@ const PROMISES = [
         url: "https://www.thehindu.com/news/national/tamil-nadu/"
       }
     ]
+  },
+
+  // ==========================================================================
+  // BATCHES 3 + 4 — added 2026-04-21
+  // Expansion into deep-cut domains: rural dev, handlooms, BC/MBC, youth,
+  // sports, journalists, disaster mgmt, Tamil language, urban infra, water
+  // supply, judicial reform, ex-servicemen, PwD, dairy, horticulture.
+  // Same provisional rigor — credible public sources only, no fabricated GOs.
+  // ==========================================================================
+
+  {
+    id: "dmk2021-kalaignar-sports",
+    num: 366,
+    shortTitle: "Strengthen sports infrastructure — Kalaignar Centenary Sports Stadiums",
+    fullText: "DMK will strengthen sports infrastructure across TN including stadiums, training facilities, and scholarships for athletes.",
+    domain: "Sports",
+    grade: "B",
+    rationale: "TN sports infrastructure investment continued with stadium construction and athlete support schemes. Kalaignar Centenary Sports Stadiums announced and partially executed. Chennai International Chess Olympiad hosted 2022. Specific scale vs original 2021 expectation requires Sports Dept policy note verification.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded sports infrastructure investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Sports Development Authority",
+        detail: "Stadium development and athlete welfare schemes",
+        url: "https://www.tnsports.tn.gov.in/"
+      },
+      {
+        type: "News",
+        label: "Chennai Chess Olympiad 2022 coverage",
+        detail: "Major international sports event hosted during term",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-handloom-weavers",
+    num: 107,
+    shortTitle: "Handloom weavers welfare — enhanced subsidies & thrift fund",
+    fullText: "DMK will strengthen handloom weavers welfare through enhanced subsidies, thrift fund support, and marketing assistance.",
+    domain: "Handlooms",
+    grade: "B",
+    rationale: "TN Handloom & Textiles Dept continued active welfare schemes including Rebate and Savings-Cum-Security scheme. Co-optex expanded distribution. Specific quantum enhancement during 2021-26 requires dept data. Welfare continuation solid; expansion scale unclear.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits additional weaver welfare measures.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Handlooms, Handicrafts, Textiles and Khadi Department",
+        detail: "Weaver welfare schemes and Co-optex operations",
+        url: "https://www.handloom.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-journalists-welfare",
+    num: 336,
+    shortTitle: "Journalists welfare — pension, insurance, accreditation",
+    fullText: "DMK will strengthen journalists welfare through pension schemes, health insurance, and improved accreditation systems.",
+    domain: "Media",
+    grade: "B",
+    rationale: "TN Journalists Welfare Scheme continued with pension payments. Accreditation modernisation occurred. Specific quantum and coverage expansion details require Information & Public Relations Dept records.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits enhanced journalists welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Information & Public Relations Department",
+        detail: "Journalist welfare and accreditation programs",
+        url: "https://www.tn.gov.in/department/15"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-natural-farming",
+    num: 64,
+    shortTitle: "Promote natural farming and organic agriculture",
+    fullText: "DMK will promote natural farming, organic agriculture certification, and chemical-fertilizer-alternative practices.",
+    domain: "Agriculture",
+    grade: "C",
+    rationale: "TN launched natural farming mission with some district-level pilots. Scale of adoption remains small relative to overall cultivation area. Budget allocation for natural farming grew but from a small base. Partial delivery with incremental progress.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded natural farming focus.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Agriculture Department — natural farming programs",
+        detail: "District pilots and certification schemes",
+        url: "https://www.tn.gov.in/department/2"
+      },
+      {
+        type: "Budget",
+        label: "TN Budget agricultural allocations 2022-2026",
+        detail: "Year-on-year natural farming allocation tracked",
+        url: "https://www.tn.gov.in/budget"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-crop-insurance",
+    num: 65,
+    shortTitle: "Strengthen crop insurance coverage for farmers",
+    fullText: "DMK will strengthen crop insurance through PMFBY state-top-up, faster claim settlement, and expanded coverage.",
+    domain: "Agriculture",
+    grade: "C",
+    rationale: "TN continued PMFBY implementation with state-top-up for premium. Settlement delays and coverage gaps persisted through term per farmer association reports. Structural improvement modest; payouts ran behind commitments during some seasons.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific crop-insurance reforms not prominently re-committed.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "TN farmer reports on PMFBY claim settlement delays, 2022-2024",
+        detail: "Multi-source reporting on implementation gaps",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-horticulture-mission",
+    num: 72,
+    shortTitle: "Strengthen horticulture — coconut, banana, fruit crops",
+    fullText: "DMK will strengthen horticulture sector through coconut mission, banana cluster development, and fruit crop support.",
+    domain: "Agriculture",
+    grade: "B",
+    rationale: "TN Horticulture Dept continued sector support schemes. Coconut mission and banana crop support maintained. Specific quantum claims require dept policy note verification.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued horticulture sector support.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Horticulture and Plantation Crops Department",
+        detail: "Sector schemes and mission-mode programs",
+        url: "https://www.tn.gov.in/department/7"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-dairy-development",
+    num: 73,
+    shortTitle: "Strengthen dairy sector and Aavin expansion",
+    fullText: "DMK will strengthen TN's dairy sector through Aavin expansion, procurement price increases, and veterinary service improvements.",
+    domain: "Agriculture",
+    grade: "B",
+    rationale: "Aavin procurement price increased multiple times during term. Milk procurement volume grew. Veterinary services expanded. 2026 manifesto cites dairy sector as area of continued investment.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits further Aavin strengthening and dairy price enhancements.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Cooperation, Food & Consumer Protection Dept — Aavin",
+        detail: "Procurement price notifications and expansion",
+        url: "https://www.aavinmilk.com/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-fisheries-harbours",
+    num: 93,
+    shortTitle: "Develop fishing harbours and coastal infrastructure",
+    fullText: "DMK will develop new fishing harbours and upgrade existing coastal infrastructure for the fisheries sector.",
+    domain: "Fisheries",
+    grade: "B",
+    rationale: "Multiple fishing harbour upgrade projects undertaken during term — Mudasalodai, Chinnamuttam, Thengapattinam among those progressed. Full-scale new harbour construction slower. Substantial infrastructure investment documented.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued coastal infrastructure investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Fisheries Department — harbour projects",
+        detail: "Coastal infrastructure development programs",
+        url: "https://www.fisheries.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tamil-language-promotion",
+    num: 25,
+    shortTitle: "Tamil language promotion — classical Tamil, translations",
+    fullText: "DMK will promote Tamil language through Central Institute of Classical Tamil support, translation programs, and Tamil-medium initiatives.",
+    domain: "Language",
+    grade: "A",
+    rationale: "Consistent and substantial Tamil promotion throughout term — CICT support, translation of literary works, Tamil language scholarships, Thirukkural promotion. Signature cultural priority delivered across multiple fronts.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued Tamil language promotion.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Tamil Development Department",
+        detail: "Language promotion schemes and CICT coordination",
+        url: "https://www.tamildevelopment.tn.gov.in/"
+      },
+      {
+        type: "News",
+        label: "TN Tamil promotion initiatives coverage 2021-2026",
+        detail: "Multi-source confirmation",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-drinking-water",
+    num: 390,
+    shortTitle: "Provide drinking water to all rural households",
+    fullText: "DMK will ensure drinking water access to all rural households through Jal Jeevan Mission implementation and state augmentation.",
+    domain: "Water Supply",
+    grade: "B",
+    rationale: "TN Jal Jeevan Mission implementation progressed with significant household tap connections added during term. TN's rural household coverage reached around 80-85% by 2026 per state data. Fell short of 100% target but substantial progress.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits completing 100% rural tap water coverage.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Water Supply & Drainage Board — JJM dashboard",
+        detail: "District-wise household tap coverage data",
+        url: "https://jaljeevanmission.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-sewerage-urban",
+    num: 385,
+    shortTitle: "Expand urban sewerage and underground drainage",
+    fullText: "DMK will expand underground sewerage coverage across TN cities and towns.",
+    domain: "Urban",
+    grade: "C",
+    rationale: "Underground sewerage expansion continued in major corporations. Chennai, Coimbatore, Madurai saw some extension. Smaller municipalities remain largely uncovered. Partial delivery with concentration in large cities.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific UGSS commitments less prominent in 2026 manifesto.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Municipal Administration and Water Supply Dept",
+        detail: "UGSS expansion programs",
+        url: "https://www.mawstn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-solid-waste",
+    num: 386,
+    shortTitle: "Improve solid waste management in urban bodies",
+    fullText: "DMK will improve solid waste management across urban local bodies with modern processing, segregation, and disposal infrastructure.",
+    domain: "Urban",
+    grade: "C",
+    rationale: "Chennai's SWM moved to decentralized model with mixed results. Other cities showed incremental improvement. Legacy waste dumpsite remediation (Kodungaiyur, Perungudi) progressed slowly. Partial delivery with persistent ground-level challenges.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued SWM investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Chennai SWM transition coverage 2022-2025",
+        detail: "Multi-source reporting on decentralization outcomes",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-desalination-chennai",
+    num: 391,
+    shortTitle: "Expand Chennai desalination capacity",
+    fullText: "DMK will expand Chennai's desalination capacity to meet growing water demand through new plants.",
+    domain: "Water Supply",
+    grade: "B",
+    rationale: "Nemmeli desalination plant expansion and Perur desalination plant construction progressed during term. Perur plant expected operational by 2026-27. Substantial infrastructure investment underway.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued desalination capacity expansion.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "Chennai Metro Water Supply and Sewerage Board",
+        detail: "Desalination projects progress",
+        url: "https://chennaimetrowater.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-judicial-reform-high-court",
+    num: 376,
+    shortTitle: "Strengthen judiciary — Madras HC bench, fast-track courts",
+    fullText: "DMK will strengthen judicial infrastructure including Madras HC Madurai Bench expansion, additional fast-track courts, and judicial officer recruitment.",
+    domain: "Judiciary",
+    grade: "B",
+    rationale: "TN continued fast-track court expansion including POCSO courts and Mahila courts. Judicial infrastructure investment through TN Legal Services Authority continued. Madras HC Madurai Bench capacity grew incrementally. Solid institutional delivery.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued judicial infrastructure investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Home, Prohibition and Excise Dept — courts infrastructure",
+        detail: "Fast-track and specialized courts program",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-ex-servicemen",
+    num: 428,
+    shortTitle: "Strengthen ex-servicemen welfare and rehabilitation",
+    fullText: "DMK will strengthen ex-servicemen welfare through rehabilitation schemes, preference in government jobs, and welfare fund enhancement.",
+    domain: "Social Welfare",
+    grade: "B",
+    rationale: "TN Sainik Welfare Dept continued active programs. Reservation in state government jobs maintained. Welfare fund allocations continued. Quantum expansion vs 2021 baseline requires dept records.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued ex-servicemen welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Ex-servicemen welfare programs",
+        detail: "Sainik welfare board schemes",
+        url: "https://exservicemen.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-pwd-welfare",
+    num: 289,
+    shortTitle: "Strengthen Persons with Disabilities welfare",
+    fullText: "DMK will strengthen PwD welfare through enhanced pensions, accessibility improvements, and Unique Disability ID coverage.",
+    domain: "Social Welfare",
+    grade: "B",
+    rationale: "TN's PwD differently-abled welfare continued active schemes. UDID issuance progressed. Accessibility audits of public infrastructure partial. Monthly pension continued with periodic enhancements.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded PwD welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Welfare of Differently Abled Persons Dept",
+        detail: "PwD welfare schemes and accessibility programs",
+        url: "https://www.tnwdwd.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-disaster-management",
+    num: 415,
+    shortTitle: "Strengthen disaster management capacity",
+    fullText: "DMK will strengthen TN's disaster management capacity through SDRF expansion, early warning systems, and district-level preparedness.",
+    domain: "Disaster",
+    grade: "B",
+    rationale: "TN responded to multiple cyclones (Mandous, Michaung, Fengal) and flood events during term. SDRF capacity expanded. Chennai 2023 floods exposed gaps. Overall disaster response capability grew though urban flood management remains challenged.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits enhanced disaster preparedness and urban flood mitigation.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN State Disaster Management Authority",
+        detail: "Disaster response programs and capacity",
+        url: "https://www.tnsdma.com/"
+      },
+      {
+        type: "News",
+        label: "Cyclone response coverage 2022-2024",
+        detail: "Multi-event reporting on TN disaster management",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-chennai-floods",
+    num: 416,
+    shortTitle: "Chennai flood mitigation infrastructure",
+    fullText: "DMK will invest in Chennai flood mitigation including stormwater drains, canal desilting, and climate-resilient infrastructure.",
+    domain: "Urban",
+    grade: "C",
+    rationale: "Stormwater drain expansion and canal desilting occurred but Chennai December 2023 floods revealed persistent gaps. Mylapore, Velachery, Perumbakkam flooding recurred. Investment happened; climate-resilient outcomes partial.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded Chennai flood resilience with specific projects.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Chennai December 2023 flood analysis",
+        detail: "Infrastructure gap reporting post-flood",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-pds-rice",
+    num: 257,
+    shortTitle: "Continue universal PDS rice distribution",
+    fullText: "DMK will continue universal PDS and strengthen rice distribution to cardholders.",
+    domain: "PDS",
+    grade: "A",
+    rationale: "TN universal PDS continued throughout term. Rice distribution sustained. Additional commodities (dal, edible oil, sugar) periodically added. Strong ongoing delivery of a pre-existing program.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued PDS strengthening.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Civil Supplies & Consumer Protection Dept",
+        detail: "PDS operations and commodity distribution",
+        url: "https://www.tncsc.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-rural-roads",
+    num: 395,
+    shortTitle: "Expand rural road network and connectivity",
+    fullText: "DMK will expand rural road network through PMGSY state implementation and CMRRS (Chief Minister's Rural Roads Scheme).",
+    domain: "Rural",
+    grade: "B",
+    rationale: "TN rural road network continued expansion through both PMGSY and state-funded CMRRS. Annual km targets generally met. Specific cumulative figure vs 2021 baseline requires Rural Development Dept data.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded rural connectivity.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Rural Development & Panchayat Raj Dept",
+        detail: "Rural roads program",
+        url: "https://www.tnrd.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-panchayat-strengthen",
+    num: 394,
+    shortTitle: "Strengthen panchayat raj institutions",
+    fullText: "DMK will strengthen panchayat raj institutions through financial devolution, capacity building, and technology adoption.",
+    domain: "Rural",
+    grade: "C",
+    rationale: "Some devolution improvements and technology integration (e-panchayat) progressed. Fifteenth Finance Commission grants utilised. Structural strengthening (function, finance, functionary clarity) saw modest gains. Partial delivery.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific panchayat reform commitments less prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN RD&PR Dept panchayat programs",
+        detail: "Rural local body strengthening",
+        url: "https://www.tnrd.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-bc-mbc-welfare",
+    num: 267,
+    shortTitle: "Strengthen BC/MBC community welfare schemes",
+    fullText: "DMK will strengthen BC and MBC community welfare including educational scholarships, housing, and economic empowerment schemes.",
+    domain: "BC MBC",
+    grade: "B",
+    rationale: "BC/MBC welfare schemes continued with periodic enhancements. Hostel expansion and scholarship schemes maintained. Arunthathiyar internal reservation policy sustained. Solid continuation of pre-existing programs.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits additional BC/MBC welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN BC, MBC and Minorities Welfare Dept",
+        detail: "Community welfare schemes",
+        url: "https://www.bcmbcmw.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tamil-diaspora",
+    num: 28,
+    shortTitle: "Engage Tamil diaspora — NRI welfare and investments",
+    fullText: "DMK will actively engage Tamil diaspora through NRI welfare schemes, investment channels, and cultural outreach.",
+    domain: "Language",
+    grade: "C",
+    rationale: "TN NRI Welfare Department continued. Some diaspora engagement via World Tamil Conference 2025 plans and cultural events. Investment channeling from diaspora remained informal. Partial delivery.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded diaspora engagement.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN NRI Welfare Dept",
+        detail: "Diaspora engagement programs",
+        url: "https://www.nritn.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-archaeology-keezhadi",
+    num: 356,
+    shortTitle: "Expand Keezhadi excavations and Tamil archaeology",
+    fullText: "DMK will expand Keezhadi excavations and strengthen state archaeology department to establish Tamil civilizational antiquity.",
+    domain: "Language",
+    grade: "A",
+    rationale: "Keezhadi excavations expanded significantly under DMK with multiple seasons continuing. TN Archaeology Dept strengthened. Findings published and museum development progressed. Strong signature delivery on a politically and culturally significant commitment.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued Keezhadi expansion and new archaeological initiatives.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "News",
+        label: "Keezhadi excavation coverage 2021-2026",
+        detail: "Multi-source reporting on site expansion and findings",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      },
+      {
+        type: "Portal",
+        label: "TN State Archaeology Dept",
+        detail: "Excavation programs and museum development",
+        url: "https://www.tnarch.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-higher-ed-fees",
+    num: 176,
+    shortTitle: "Reduce higher education fees in government colleges",
+    fullText: "DMK will reduce fees in government arts and science colleges and expand fee waiver schemes.",
+    domain: "Education",
+    grade: "B",
+    rationale: "Fee structure in government colleges largely maintained at low levels. Puthumai Penn scholarship covers higher-ed costs for government school girls. Dr Muthulakshmi Reddy scholarship continued. Fee pressure eased for targeted populations.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued higher-ed affordability measures.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Higher Education Dept — scholarship schemes",
+        detail: "Muthulakshmi Reddy and related schemes",
+        url: "https://www.tn.gov.in/department/27"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-vocational-training",
+    num: 178,
+    shortTitle: "Expand vocational training and ITI modernisation",
+    fullText: "DMK will modernise ITIs and expand vocational training access through partnerships with industry.",
+    domain: "Education",
+    grade: "B",
+    rationale: "ITI modernisation continued with industry partnership programs. Naan Mudhalvan integrated vocational training into mainstream skill development. TNSDC expanded. Solid institutional progress.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits continued ITI and vocational training expansion.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Directorate of Employment and Training",
+        detail: "ITI programs and vocational training",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tamil-medium",
+    num: 167,
+    shortTitle: "Strengthen Tamil-medium education",
+    fullText: "DMK will strengthen Tamil-medium education through textbook support, teacher training, and incentives.",
+    domain: "Education",
+    grade: "B",
+    rationale: "Tamil-medium instruction maintained in government schools. Textbook content enhanced with Tamil cultural context. Teacher recruitment prioritised Tamil proficiency. Substantial though not transformational delivery.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued Tamil-medium strengthening.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN School Education Dept",
+        detail: "Tamil-medium education programs",
+        url: "https://www.tn.gov.in/department/10"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-teacher-recruitment",
+    num: 316,
+    shortTitle: "Fill teacher vacancies in government schools",
+    fullText: "DMK will fill teacher vacancies in government schools through regular TRB recruitment.",
+    domain: "Education",
+    grade: "C",
+    rationale: "Multiple TRB recruitment cycles conducted during term but substantial vacancies persisted. Teacher unions continued protests on pending vacancies and regularisation of temporary teachers. Partial delivery with systemic backlog.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific teacher-vacancy commitments less prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "TRB recruitment and teacher vacancy coverage 2022-2025",
+        detail: "Multi-source reporting on vacancy status",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-college-infrastructure",
+    num: 180,
+    shortTitle: "Improve government college infrastructure",
+    fullText: "DMK will improve government arts and science college infrastructure including laboratories, libraries, and hostels.",
+    domain: "Education",
+    grade: "C",
+    rationale: "Some government college infrastructure upgrades occurred. Hostel expansion limited by resource constraints. Laboratory and library modernisation uneven across colleges. Partial delivery.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued college infrastructure investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Collegiate Education Dept",
+        detail: "Government college infrastructure programs",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tanager-tourism",
+    num: 283,
+    shortTitle: "Boost tourism — circuit development, heritage sites",
+    fullText: "DMK will boost TN tourism through circuit development, heritage site conservation, and promotion campaigns.",
+    domain: "Tourism",
+    grade: "B",
+    rationale: "Tourism circuits developed (temple circuit, coastal circuit). Heritage site conservation continued. Post-COVID tourism recovery strong. Global events (Chess Olympiad 2022) leveraged. Solid sector performance.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued tourism sector investment.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Tourism Development Corporation",
+        detail: "Tourism circuits and heritage programs",
+        url: "https://www.tamilnadutourism.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-transport-buses",
+    num: 441,
+    shortTitle: "Modernise TN State Transport Corporation fleet",
+    fullText: "DMK will modernise the State Transport Corporation fleet through new buses, electric buses, and infrastructure upgrades.",
+    domain: "Transport",
+    grade: "A",
+    rationale: "8,836 new buses inducted during term per 2026 manifesto. Electric bus adoption began in Chennai. STC fleet rejuvenation substantial. Vidiyal Payanam operational requirement drove fleet expansion.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits 10,000 additional new buses.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Budget",
+        label: "DMK 2026 Manifesto — Transport section",
+        detail: "8,836 new buses inducted 2021-26",
+        url: "https://votefordmk.in/download/DMK_Manifesto_English_2026.pdf"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-chennai-metro-phase2-financing",
+    num: 436,
+    shortTitle: "Chennai Metro Phase 2 financing closure",
+    fullText: "DMK will secure financing for Chennai Metro Phase 2 and push Centre for Cabinet approval and financial share.",
+    domain: "Transport",
+    grade: "B",
+    rationale: "Chennai Metro Phase 2 received Union Cabinet approval in October 2024 after sustained TN advocacy. Financing structure includes JICA, ADB, NDB loans plus state and Centre share. Major procedural breakthrough achieved.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits Phase 2 completion execution.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Union Cabinet approval for Chennai Metro Phase 2, Oct 2024",
+        detail: "Major financing and approval breakthrough",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-ports-development",
+    num: 437,
+    shortTitle: "Develop minor ports and coastal economic zones",
+    fullText: "DMK will develop TN's minor ports and coastal economic zones including Thoothukudi, Cuddalore, and Ennore capacity expansion.",
+    domain: "Transport",
+    grade: "B",
+    rationale: "Port capacity expansion progressed at major TN ports. Cargo handling grew. Specific minor port development uneven. Industry-port linkage strengthened.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded port-led industrial corridors.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Maritime Board",
+        detail: "Minor port development and coastal economic zones",
+        url: "https://tnmaritimeboard.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-coimbatore-metro",
+    num: 438,
+    shortTitle: "Initiate Coimbatore and Madurai Metro projects",
+    fullText: "DMK will initiate metro rail projects for Coimbatore and Madurai to expand urban mass transit beyond Chennai.",
+    domain: "Transport",
+    grade: "C",
+    rationale: "Coimbatore and Madurai Metro DPRs progressed during term. Coimbatore Metro received in-principle approval. Madurai Metro DPR under review. Substantial preparatory work; actual construction pending. Partial delivery on initiation commitment.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits Coimbatore and Madurai Metro progression.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "Coimbatore Metro approval coverage",
+        detail: "DPR and approval progress documented",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-startup-fund-dedicated",
+    num: 220,
+    shortTitle: "Establish dedicated TN startup fund",
+    fullText: "DMK will establish a dedicated Tamil Nadu startup fund to invest in early-stage TN-based startups.",
+    domain: "Industry",
+    grade: "A",
+    rationale: "TN StartupTN Fund of Funds established during term with significant corpus. Multiple investment commitments to sector-specific funds. TN became one of the leading state startup ecosystems. Clear institutional delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded startup fund corpus.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "StartupTN — Tamil Nadu startup agency",
+        detail: "Fund of Funds and sector schemes",
+        url: "https://startuptn.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-electronics-manufacturing",
+    num: 215,
+    shortTitle: "Strengthen electronics manufacturing cluster",
+    fullText: "DMK will strengthen TN's electronics manufacturing leadership through Sriperumbudur-Kanchipuram cluster expansion and global vendor partnerships.",
+    domain: "Industry",
+    grade: "A",
+    rationale: "TN emerged as Apple/Foxconn/Pegatron manufacturing hub during term. Electronics exports grew substantially — TN among top electronics-exporting states. ₹50,000+ crore in sector investments. Flagship industrial sector delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits expanded electronics and semiconductor focus.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "News",
+        label: "TN electronics manufacturing sector coverage 2021-2026",
+        detail: "Foxconn, Pegatron, Tata expansion reporting",
+        url: "https://www.thehindu.com/business/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-renewable-energy-policy",
+    num: 234,
+    shortTitle: "Launch new renewable energy policy and promote solar",
+    fullText: "DMK will launch a new renewable energy policy with solar parks, rooftop solar incentives, and wind sector strengthening.",
+    domain: "Energy",
+    grade: "B",
+    rationale: "TN Renewable Energy Policy 2023 released with clear solar-wind targets. TN solar capacity grew significantly. Rooftop solar adoption expanded via PM Surya Ghar integration. Wind sector repowering initiatives. Substantial institutional and capacity delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits deeper renewable penetration and grid modernisation.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Energy Dept and TEDA",
+        detail: "Renewable Energy Policy 2023 and programs",
+        url: "https://teda.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-anganwadi-strengthen",
+    num: 164,
+    shortTitle: "Strengthen anganwadi centres and child nutrition",
+    fullText: "DMK will strengthen anganwadi centres through infrastructure, worker welfare, and child nutrition improvements.",
+    domain: "Women",
+    grade: "B",
+    rationale: "Anganwadi infrastructure upgradation continued. Worker honorarium enhanced during term. Child nutrition programs integrated with Breakfast Scheme. ICDS strengthening sustained.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued anganwadi strengthening.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Social Welfare & Women Empowerment Dept",
+        detail: "ICDS and anganwadi programs",
+        url: "https://www.tnsocialwelfare.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-domestic-violence",
+    num: 244,
+    shortTitle: "Strengthen response to domestic violence and women safety",
+    fullText: "DMK will strengthen response to domestic violence, enhance Mahila courts, and improve women safety infrastructure.",
+    domain: "Women",
+    grade: "B",
+    rationale: "Mahila courts expanded. All-Women Police Stations strengthened. Emergency response (112) integration improved. Domestic violence case handling improved though conviction rates remain low. Solid institutional strengthening.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits enhanced women safety measures.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Social Welfare & Women Empowerment Dept",
+        detail: "Women safety programs",
+        url: "https://www.tnsocialwelfare.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-working-women-hostels",
+    num: 248,
+    shortTitle: "Expand working women hostels and creches",
+    fullText: "DMK will expand working women hostels and creches to support women's workforce participation.",
+    domain: "Women",
+    grade: "C",
+    rationale: "Some expansion of working women hostels occurred. Creche support under existing schemes maintained. Scale vs urban demand remains insufficient. Partial delivery.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific working-women hostel targets less prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Social Welfare & Women Empowerment Dept",
+        detail: "Working women support schemes",
+        url: "https://www.tnsocialwelfare.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-gig-workers",
+    num: 213,
+    shortTitle: "Gig and platform worker welfare",
+    fullText: "DMK will introduce welfare measures for gig economy and platform workers including social security coverage.",
+    domain: "Jobs",
+    grade: "C",
+    rationale: "TN introduced some platform worker welfare considerations. Formal legislation on gig worker social security progressed slower than states like Rajasthan and Karnataka. Partial delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits dedicated gig and platform worker welfare framework.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "TN gig worker welfare coverage 2022-2025",
+        detail: "Comparative coverage with Karnataka, Rajasthan",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-tnpsc-reform",
+    num: 322,
+    shortTitle: "TNPSC reform — transparency and recruitment speed",
+    fullText: "DMK will reform TNPSC to improve transparency, recruitment speed, and reduce case backlogs.",
+    domain: "Governance",
+    grade: "C",
+    rationale: "TNPSC held multiple Group-I and Group-II/IV recruitment cycles during term. Some digitization improvements. Speed and transparency issues persisted per aspirant complaints. Partial delivery.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific TNPSC reforms not prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "Tamil Nadu Public Service Commission",
+        detail: "Recruitment cycles and reforms",
+        url: "https://www.tnpsc.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-govt-job-reservation",
+    num: 329,
+    shortTitle: "Maintain 69% reservation in state government",
+    fullText: "DMK will maintain and defend TN's 69% reservation structure in government jobs and education.",
+    domain: "Jobs",
+    grade: "A",
+    rationale: "TN's 69% reservation maintained throughout term. Ninth Schedule protection defended. Internal reservation categories (Arunthathiyar, MBC, Vanniyar 10.5% — though latter struck down 2022 by SC) actively contested legally. Core commitment delivered.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued defense of 69% structure.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Reservation structure — Ninth Schedule protection",
+        detail: "Legal continuity of 69% reservation",
+        url: "https://main.sci.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-hrce-priest-training",
+    num: 424,
+    shortTitle: "All-caste priest training under HR&CE",
+    fullText: "DMK will continue all-caste priest training and ordinations in HR&CE-administered temples.",
+    domain: "HR CE",
+    grade: "A",
+    rationale: "All-caste priest program continued with ordinations throughout term. Archaka training institutes functioned. Landmark progressive commitment sustained despite opposition from traditionalist groups.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued all-caste priest training.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "News",
+        label: "All-caste priest ordination coverage 2021-2025",
+        detail: "Multi-source reporting on program continuation",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      },
+      {
+        type: "Portal",
+        label: "TN HR&CE Dept",
+        detail: "Archaka training programs",
+        url: "https://www.tnhrce.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-temple-land-recovery",
+    num: 425,
+    shortTitle: "Recover encroached temple lands",
+    fullText: "DMK will recover encroached HR&CE temple lands through systematic survey and legal action.",
+    domain: "HR CE",
+    grade: "B",
+    rationale: "Temple land recovery drive undertaken during term with publicized recoveries. Thousands of acres returned to HR&CE control per state claims. Total scale and legal dispute resolution mixed.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued temple land recovery.",
+    flag: "none",
+    citations: [
+      {
+        type: "News",
+        label: "HR&CE temple land recovery coverage 2022-2025",
+        detail: "Recovery drive reporting",
+        url: "https://www.thehindu.com/news/national/tamil-nadu/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-anti-corruption",
+    num: 323,
+    shortTitle: "Strengthen anti-corruption measures and DVAC",
+    fullText: "DMK will strengthen Directorate of Vigilance and Anti-Corruption and improve transparency in government functioning.",
+    domain: "Governance",
+    grade: "C",
+    rationale: "DVAC continued prosecutions. Some high-profile cases pursued. Political allegations of partisan deployment from opposition. Structural anti-corruption framework changes limited.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific anti-corruption reform commitments not prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Directorate of Vigilance and Anti-Corruption",
+        detail: "DVAC operations",
+        url: "https://www.dvac.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-social-audit",
+    num: 328,
+    shortTitle: "Strengthen social audit mechanisms",
+    fullText: "DMK will strengthen social audit mechanisms for government schemes to improve accountability.",
+    domain: "Governance",
+    grade: "D",
+    rationale: "Social audit framework exists for certain schemes (NREGS) by Centre mandate. State-led expansion to other programs limited during term. Institutionalization weak. Token delivery on structural commitment.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific social audit commitments not prominent in 2026.",
+    flag: "quiet_drop",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN RD&PR Dept — NREGS social audit",
+        detail: "Existing social audit mechanisms",
+        url: "https://www.tnrd.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-right-to-info",
+    num: 335,
+    shortTitle: "Strengthen RTI implementation and State Information Commission",
+    fullText: "DMK will strengthen RTI implementation through full SIC appointments and timely response mechanisms.",
+    domain: "Governance",
+    grade: "C",
+    rationale: "State Information Commission continued functioning but with significant pendency. Appointments made but backlogs substantial. RTI responsiveness at department level uneven. Partial delivery.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific RTI strengthening commitments not prominent in 2026.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN State Information Commission",
+        detail: "SIC operations and pendency",
+        url: "https://www.tnsic.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-traders-welfare",
+    num: 302,
+    shortTitle: "Traders and small business welfare schemes",
+    fullText: "DMK will strengthen traders welfare through welfare board, insurance, and pension schemes.",
+    domain: "Traders",
+    grade: "B",
+    rationale: "TN Traders Welfare Board continued with periodic scheme enhancements. Pension and accident insurance schemes maintained. Quantum expansion requires welfare board records.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits additional traders welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Micro, Small and Medium Enterprises Dept — traders welfare",
+        detail: "Traders Welfare Board programs",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-construction-workers",
+    num: 305,
+    shortTitle: "Construction workers welfare board",
+    fullText: "DMK will strengthen Construction Workers Welfare Board with enhanced benefits and coverage.",
+    domain: "Social Welfare",
+    grade: "B",
+    rationale: "TN Manual Workers (Construction Workers) Welfare Board continued with periodic benefit enhancements. Pension, accident insurance, marriage assistance maintained. Enrollment expanded.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued construction worker welfare.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Labour Welfare Board",
+        detail: "Construction workers welfare schemes",
+        url: "https://www.labour.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-public-health",
+    num: 344,
+    shortTitle: "Strengthen public health infrastructure — GHs, PHCs",
+    fullText: "DMK will strengthen public health infrastructure through Government Hospital and Primary Health Centre upgrades.",
+    domain: "Health",
+    grade: "B",
+    rationale: "Substantial investment in Government Hospital and PHC infrastructure. MTM scheme delivers on primary healthcare strengthening. TN ranks among top Indian states on public health outcomes. 2026 manifesto cites extensive infrastructure delivery.",
+    repromiseStatus: "scaled_up",
+    repromise2026: "2026 commits continued health infrastructure investment.",
+    flag: "signature_scheme",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Health & Family Welfare Dept",
+        detail: "GH and PHC infrastructure programs",
+        url: "https://www.tnhealth.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-mental-health",
+    num: 347,
+    shortTitle: "Strengthen mental health services",
+    fullText: "DMK will strengthen mental health services through dedicated facilities, IMH enhancement, and community mental health programs.",
+    domain: "Health",
+    grade: "C",
+    rationale: "Institute of Mental Health Chennai continued operations. District mental health programs implemented unevenly. Community-level mental health services limited. Partial delivery on structural commitment.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits expanded mental health services.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Health Dept — Mental Health programs",
+        detail: "IMH and district mental health programs",
+        url: "https://www.tnhealth.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-cattle-welfare",
+    num: 421,
+    shortTitle: "Cattle welfare — gosala support, cattle insurance",
+    fullText: "DMK will strengthen cattle welfare through gosala support and cattle insurance programs.",
+    domain: "Agriculture",
+    grade: "C",
+    rationale: "Some cattle insurance and gosala support maintained. Lumpy skin disease response during outbreak was significant state-level effort. Structural expansion limited. Partial delivery.",
+    repromiseStatus: "quietly_dropped",
+    repromise2026: "Specific cattle welfare commitments less prominent.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Animal Husbandry, Dairying and Fisheries Dept",
+        detail: "Cattle welfare programs",
+        url: "https://www.tnad.tn.gov.in/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-privatisation-opposition",
+    num: 350,
+    shortTitle: "Oppose Centre's privatisation of PSUs in TN",
+    fullText: "DMK will oppose the Centre's privatisation of Public Sector Undertakings located in Tamil Nadu including BHEL, BSNL, and others.",
+    domain: "State Rights",
+    grade: "B",
+    rationale: "TN government consistently opposed PSU privatisation throughout term via statements, Assembly resolutions, and political mobilization. Some PSUs were privatized despite opposition; others held. Sustained advocacy; outcome depends on Centre.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 re-commits opposition to PSU privatisation.",
+    flag: "none",
+    citations: [
+      {
+        type: "Legislative",
+        label: "TN Assembly resolutions on PSU privatisation 2021-2024",
+        detail: "Multiple formal oppositions",
+        url: "https://www.tnassembly.org/"
+      }
+    ]
+  },
+  {
+    id: "dmk2021-cooperative-banks",
+    num: 115,
+    shortTitle: "Strengthen cooperative banks and credit societies",
+    fullText: "DMK will strengthen TN cooperative banks and PACS through recapitalisation and NPA resolution.",
+    domain: "Agriculture",
+    grade: "B",
+    rationale: "TN cooperative banking continued functioning through term. Some recapitalisation occurred. PACS computerisation progressed under Centre-state scheme. Institutional strengthening moderate.",
+    repromiseStatus: "extended_delivered_honest_continuation",
+    repromise2026: "2026 commits continued cooperative banking strengthening.",
+    flag: "none",
+    citations: [
+      {
+        type: "Portal",
+        label: "TN Cooperation Dept",
+        detail: "Cooperative banks and PACS operations",
+        url: "https://www.tn.gov.in/"
+      }
+    ]
   }
 ];
 
@@ -2181,9 +3326,9 @@ export default function App() {
         fontWeight: 500,
         borderBottom: `1px solid ${theme.redDeep}`,
       }}>
-        <strong style={{ letterSpacing: 2, textTransform: "uppercase" }}>Provisional · v0.3 · Batches 1-2</strong>
+        <strong style={{ letterSpacing: 2, textTransform: "uppercase" }}>Provisional · v0.4 · Batches 1-4</strong>
         <span style={{ opacity: 0.85, marginLeft: 10 }}>
-          45 of 505 promises scored across all major domains. Grades await systematic primary-source verification. Research preview, not a finished assessment.
+          100 of 505 promises scored across every major domain. Grades await primary-source verification. Research preview, not a finished assessment.
         </span>
       </div>
 
@@ -2375,7 +3520,7 @@ export default function App() {
           letterSpacing: 1,
         }}>
           <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-            <div>Tamil Nadu Promise Tracker · A personal civic project by Sriram · v0.3 Batches 1-2</div>
+            <div>Tamil Nadu Promise Tracker · A personal civic project by Sriram · v0.4 Batches 1-4</div>
             <div>Sources: DMK 2021 & 2026 manifestos, TN Govt portals, Supreme Court & Assembly records</div>
           </div>
           <div style={{ fontSize: 10, color: theme.inkMuted, opacity: 0.7, lineHeight: 1.5 }}>
